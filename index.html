@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Open+Sans&family=Uchen&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/user.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+       <fieldset class="content">
+        <h1>Registration form</h1>
+           <form class="form">
+               <div class="box">
+                    <label for="firstName">First Name: </label>
+                    <input type="text" id="firstName" class="input" name="firstName">
+                </div>
+                <div class="box">
+                    <label for="lastName">Last Name: </label>
+                    <input type="text" id="lastName" class="input" name="lastName">
+                </div>
+                <div class="box">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" class="input" name="email">
+                </div>
+                <div class="box">
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" class="input" name="pass">
+                </div>
+                <div class="box">
+                    <label for="verPassword">Verify Password: </label>
+                    <input type="password" id="verPassword" class="input" name="verPass">
+                </div>
+                <p class="passwordProblem"></p>
+                <button type="submit" class="button">Submit</button>
+           </form>
+       </fieldset>
+   </div>
+    <script src="index.js"> </script>
+</body>
+</html>
+
+
